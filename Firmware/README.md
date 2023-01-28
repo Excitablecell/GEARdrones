@@ -14,7 +14,7 @@ GEARdrone_Lite包含了完整的飞行控制器和机载UWB相对定位算法，
 
  GEARdrone for STM32F411
 
-![F4 system workflow](F4 system workflow.png)
+![F4 system workflow](F4_workflow.png)
 
 F4版本飞控由于本人精力有限，在数次因layout问题打样测试失败后已暂停开发
 
