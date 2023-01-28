@@ -1,0 +1,61 @@
+/**
+  ******************************************************************************
+  * Copyright (c) 2022 - ~, EXcai(亢体动画)
+  * @file    Drone.cpp
+  * @author  EXcai
+  * @brief   无人机精细动力学模型
+  *
+  ==============================================================================
+													How to use this library 怎么使用这个库？
+  ==============================================================================
+    @note
+		- 参考
+  	@warning 
+			- Standard C++11 required! 
+  
+  ******************************************************************************
+  * @attention
+  * 
+  * if you had modified this file, please make sure your code does not have many 
+  * bugs, update the version Number, write dowm your name and the date, the most
+  * important is make sure the users will have clear and definite understanding 
+  * through your new brief.
+  *
+
+  ******************************************************************************
+  */
+/* Includes ------------------------------------------------------------------*/
+#include "Drone.h"
+
+/* Private variables --------------------------------------------------------*/
+
+/* function prototypes -------------------------------------------------------*/
+
+/********************************************************************************
+ * @brief  	无人机精细动力学模型
+ 
+ * @param  	无人机精细动力学模型
+ 
+ * @retval 	0: 成功
+						1: 失败
+ * @author	EXcai(亢体动画)
+ *******************************************************************************/
+
+
+struct UAV_parameters //
+{
+	void UAV_setting(float,float,float,float,float);//set parameters of UAV
+	UAV_parameters();//use default parameters of UAV
+	UAV_parameters(float,float,float,float,float); //use custom parameters of UAV
+	void UAV_update(float,float,float,float,float,
+		float,float,float,float,float,float,float);//update dynamic parameters of UAV
+	
+};
+
+
+uint8_t GearDrone::Advanced_Kinematics_Model(){
+	
+	/*无人机精细动力学模型*/
+    
+	return 0;
+}
