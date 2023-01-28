@@ -2,7 +2,7 @@
 
 <img src="Document/drones.png" style="zoom: 67%;" />
 
-> GEARdrones是一个专为**低成本无人机编队控制**所开发的，集**飞行控制器**、**相对定位算法**、**软件上位机**于一体的四旋翼无人机系统。
+> GEARdrones是一个专为**低成本无人机编队控制**所开发的，集**飞行控制器**、**UWB相对定位算法**、**软件上位机**于一体的四旋翼无人机系统。
 >
 > 演示视频：[自研无人机集群？理工男的大学生活也可以很精彩！](https://www.bilibili.com/video/BV1JY4y1o76U)
 >
@@ -42,4 +42,4 @@
 
 ### 参考开源库：
 
-[SRML:华南虎嵌入式软件中间件层库]: https://github.com/scutrobotlab/srml
+[SRML:华南虎嵌入式软件中间件层库](https://github.com/scutrobotlab/srml)
