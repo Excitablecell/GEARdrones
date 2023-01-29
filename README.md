@@ -22,7 +22,7 @@
 
 ​	嵌入式软件开发环境：Keil MDK5 5.29
 
-​	编译器：V5.06 build750
+​	编译器：Arm Compiler V5.06 build750
 
 ​	MQTT服务器：mosquito/EMQX
 
